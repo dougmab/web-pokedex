@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root {
+  --header-color: #313131;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/straps.svg);
+  /* background-attachment: fixed; */
+  background-size: contain;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fire {
+  background-color: #ff7332;
+}
+
+.grass {
+  background-color: #77C850;
+}
+
+.water {
+  background-color: #678FEE;
+}
+
+.bug {
+  background-color: #A8B720;
+}
+
+.normal {
+  background-color: #A6A877;
+}
+
+.poison {
+  background-color: #A040A0;
+}
+
+.electric {
+  background-color: #F7CF2E;
+}
+
+.fairy {
+  background-color: #F9AEC7;
+}
+
+.fighting {
+  background-color: #BF3029;
+}
+
+.psychic {
+  background-color: #F65687;
+}
+
+.rock {
+  background-color: #B8A137;
+}
+
+.flying {
+  background-color: #A98FF0;
+}
+
+.ghost {
+  background-color: #6E5896;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.steel {
+  background-color: #B8B8D0;
+}
+
+.ice {
+  background-color: #98D5D7;
+}
+
+.dragon {
+  background-color: #6F38F6;
+}
