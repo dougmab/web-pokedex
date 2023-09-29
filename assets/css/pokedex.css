@@ -57,7 +57,6 @@
 
 .search-box #pokemon-search {
   border: none;
-  /* border-radius: 10px 0 0 10px; */
   padding: 1rem 0;
   margin-left: 0.5rem;
   width: 100%;
@@ -103,7 +102,6 @@
   min-height: 100px;
   position: relative;
   overflow: hidden;
-  animation: slideIn 1.5s;
 }
 
 .pokemon-card .pokedex-entry {
@@ -165,19 +163,5 @@
 @media screen and (min-width: 1200px) {
   .pokemon-cardlist {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    position: relative;
-    left: -40px;
-    opacity: 0;
-  }
-
-  to {
-    position: static;
-    left: 0;
-    opacity: 1;
   }
 }
