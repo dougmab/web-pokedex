@@ -45,8 +45,8 @@
           class="header-pokeball"
         />
       </header>
-      <ol class="pokemon-cardlist">
-        <li class="pokemon-card fire">
+      <ol class="pokemon-cardlist" id="pokedex-root">
+        <!-- <li class="pokemon-card fire">
           <span class="pokedex-entry">Nº 04</span>
           <span class="pokemon-name">Charmander</span>
 
@@ -58,11 +58,17 @@
 
             <img
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
-              alt="Sla testei"
+              alt=""
             />
           </div>
+        </li> -->
+        <li class="pokemon-card" id="loading-card">
+          <button id="load-more">Carregar mais</button>
+          <span id="loading-icon" hidden></span>
         </li>
       </ol>
     </div>
+    <script src="assets/js/pokemon-fetch.js"></script>
+    <script src="assets/js/pokemon-builder.js"></script>
   </body>
 </html>
