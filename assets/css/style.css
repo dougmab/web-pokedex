@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../img/straps.svg);
-  /* background-attachment: fixed; */
+  background-color: var(--header-color);
   background-size: contain;
 }
 
