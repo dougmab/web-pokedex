@@ -2,6 +2,7 @@
 
 :root {
   --header-color: #313131;
+  --button-color: #ff7d31;
 }
 
 html {
@@ -44,6 +45,10 @@ ul, ol {
 
 .normal {
   background-color: #A6A877;
+}
+
+.ground {
+  background-color: #E0C068;
 }
 
 .poison {
