@@ -1,5 +1,5 @@
 const pokeApiUrlbase = "https://pokeapi.co/api/v2/";
-let currentPage = pokeApiUrlbase + "pokemon?limit=10";
+let currentPage = pokeApiUrlbase + "pokemon?limit=12";
 
 function buildPokemonObject(pokemon) {
   // console.log(pokemon)
